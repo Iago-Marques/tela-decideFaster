@@ -1,0 +1,65 @@
+@media (max-width: 940px) {
+   
+   .container{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 45rem;
+   }
+
+   .h1-text{
+      margin: 1rem 0 3rem 5rem;
+   }
+
+   .h1-text h1, .h1-text p{
+      font-size: 3rem;
+   }
+
+   .ilustration{
+      width: 25rem;
+   }
+
+   .content-informs{
+      width: 100%;
+   }
+
+   .content-form{
+      width: 100%;
+   }
+
+}
+
+@media (max-width: 400px){
+   .container{
+      width: 35rem;
+   }
+
+   .card-text{
+      font-size: 1.6rem;
+   }
+
+   .ilustration{
+      width: 20rem;
+      margin: 0 0 0 10rem;
+   }
+
+   .h1-text h1, .h1-text p{
+      font-size: 2rem;
+   }
+
+   .icone-text img{
+      width: 1.5rem;
+   }
+   
+   .icone-text p{
+      font-size: 1rem;
+   }
+
+   .content-form h2{
+      font-size: 2rem;
+   }
+
+   .informs-google{
+      gap: 6.5rem;
+   }
+}
